@@ -1,0 +1,27 @@
+@model tp_sala_de_escape.Models.Sala
+
+@{
+    ViewData["Title"] = "Sala " + Model.Numero;
+}
+
+<div class="sala">
+    <h2>Sala @Model.Numero: @Model.Titulo</h2>
+    <p class="historia">@Model.Historia</p>
+    <p class="desafio">@Model.Desafio</p>
+
+    @if(ViewBag.Error != null)
+    {
+        <p class="error">@ViewBag.Error</p>
+    }
+
+    <form method="post" action="/Juego/Resolver" class="form-respuesta">
+        <input type="hidden" name="numero" value="@Model.Numero" />
+        <input type="text" name="respuesta" placeholder="Ingresa la respuesta" required />
+        <button type="submit">RESPONDER</button>
+    </form>
+
+    <button type="button" class="btn-pista" onclick="document.getElementById('pista').style.display='block'">Pista</button>
+    <div id="pista" class="pista">
+        <p>@Model.Pista</p>
+    </div>
+</div>

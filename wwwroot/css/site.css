@@ -1,0 +1,93 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+body {
+    background-color: #0a2a43;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffcc00;
+    font-size: 36px;
+}
+
+h2 {
+    color: #ffcc00;
+}
+
+.sala{
+    margin: 0;
+    padding: 3%;
+}
+
+.historia{
+    margin-bottom: 3%;
+}
+
+.desafio{
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.error{
+    color: red;
+}
+
+.form-respuesta {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 3%;
+    margin-left:34%;
+}
+
+
+.form-respuesta button{
+    padding: 1%;
+    margin-left: 1%;
+}
+
+.btn-pista {
+    padding: 1%;
+}
+
+.pista {
+    display: none;
+    margin-top: 3%;
+}
+.img-sala{
+  width:60%;
+  margin:3%;
+  border-radius: 10%;
+}

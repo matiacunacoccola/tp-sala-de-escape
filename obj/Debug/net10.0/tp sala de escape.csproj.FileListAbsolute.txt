@@ -1,0 +1,132 @@
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\appsettings.json
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\tp sala de escape.staticwebassets.runtime.json
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\tp sala de escape.staticwebassets.endpoints.json
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\tp sala de escape.exe
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\tp sala de escape.deps.json
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\tp sala de escape.runtimeconfig.json
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\tp sala de escape.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\tp sala de escape.pdb
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\Dapper.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\Microsoft.Data.SqlClient.Extensions.Abstractions.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\Microsoft.Data.SqlClient.Internal.Logging.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Downloads\tp sala de escape\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\tp sala de escape.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\tp sala de escape.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\tp sala de escape.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\tp sala de escape.AssemblyInfo.cs
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\tp sala de escape.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\tp sala de escape.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\tp sala de escape.RazorAssemblyInfo.cache
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\tp sala de escape.RazorAssemblyInfo.cs
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\scopedcss\bundle\tp sala de escape.styles.css
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\scopedcss\projectbundle\tp sala de escape.bundle.scp.css
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\z5comj7bgw-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\aaejllzxne-{0}-c92d4f899z-c92d4f899z.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\kqipcbh1hf-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\c0aye9l50d-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\d4fu09739k-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\mohju1baek-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\d5pqhtacch-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\rb2vespkt2-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\x918hi6vxu-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\uvo95du9s7-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\r83xhn29x8-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\hrv1vwxk67-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\f4ld57vrca-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\ywwmzykeph-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\rglypna6yq-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\gs548hzj5n-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\afch9xgoam-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\ibp3f8xf9h-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\4hksq2dq2e-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\efqm5800nj-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\k3dk6vgmng-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\52rhwli4kn-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\ccrnjd0xmx-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\mx52rb4gx5-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\ayh9d61t3w-{0}-06098lyss8-06098lyss8.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\4vjxod13c2-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\69g7bol6cw-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\ds9no25sg7-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\zcv3qrbeuk-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\5zcv2fnch2-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\yduwvx8yzw-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\qj2kiq7onu-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\gp870pxmsd-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\lopal5vtxm-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\9xj7x2s1iq-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\nfkeic0bcx-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\e1fm2clnez-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\pk4atg4hi4-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\5vzga7l0nv-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\t61ycqpglg-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\lbrmi4cbv0-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\fm5gliomhu-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\nzvivm6xzs-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\dj64mcjhb2-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\xfrmnkin33-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\1jgn5ad9ra-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\3jzaxxmks2-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\5a2aidrfed-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\w96iavqpf1-{0}-356vix0kms-356vix0kms.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\5xomopwjzj-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\8k07wiuwf1-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\e2rs7lb06c-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\vx3mkt78j3-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\88wk226kvd-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\068jbdpsgw-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\l4oto3vkmd-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\o23xfi2kj9-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\4hmsl391vr-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\8g7twfowba-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\37r7q13o42-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\ti8h1jlc9w-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\lc3b1h2o23-{0}-m8mwc8ccbl-m8mwc8ccbl.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\xlxsq80s7a-{0}-m8mwc8ccbl-m8mwc8ccbl.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\tp sala .79815669.Up2Date
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\tp sala de escape.dll
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\refint\tp sala de escape.dll
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\tp sala de escape.pdb
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\tp sala de escape.genruntimeconfig.cache
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\ref\tp sala de escape.dll
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\fzot9zmet1-{0}-9xb0vjpeqv-9xb0vjpeqv.gz
