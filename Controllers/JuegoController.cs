@@ -45,11 +45,11 @@ namespace tp_sala_de_escape.Controllers
             {
                 return RedirectToAction("Index");
             }
-            string salaActual= partida.IdSalaActual.ToString();
 
-            if(numero.ToString() != salaActual)
+
+            if(numero != partida.IdSalaActual)
             {
-                return RedirectToAction("Sala",new{numero = salaActual});
+                return RedirectToAction("Sala",new{numero = partida.IdSalaActual});
             }
             Sala sala= bd.ObtenerSalaPorNumero(numero);
 
@@ -159,7 +159,7 @@ namespace tp_sala_de_escape.Controllers
 
             if(!correcta)
             {
-                ViewBag.Error= "Hay alguna palabra incorrecta. Revisalas y probá de nuevo.";
+                ViewBag.Error= "Hay alguna palabra incorrecta. Revisalas y proba de nuevo.";
                 ViewBag.Palabras= palabras;
                 ViewBag.SalaNumero= numero;
                 return View("Sala");

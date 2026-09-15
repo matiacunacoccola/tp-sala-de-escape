@@ -1,3 +1,4 @@
+@using tp_sala_de_escape.Models
 <div class="sala">
 
     @if(ViewBag.SalaNumero == 1)
@@ -21,13 +22,13 @@
 
         <h3>Ordená las palabras</h3>
 
-        <img class="imagenes" src="~/images/ordenar.jpeg" alt="Ordenar" />
+        <img class="imagenes" src="~/images/ordenar.jpeg" alt="Ordenar"/>
 
         <form method="post" action="/Juego/ResolverOrdenar">
 
-            <input type="hidden" name="numero" value="1" />
+            <input type="hidden" name="numero" value="1"/>
 
-            @foreach(tp_sala_de_escape.Models.Palabra palabra in ViewBag.Palabras)
+            @foreach(Palabra palabra in ViewBag.Palabras)
             {
                 <p>@palabra.PalabraMezclada</p>
 
@@ -65,7 +66,7 @@
             Tenés 10 intentos para descubrir la palabra.
         </p>
 
-        <img class="imagenes" src="~/images/ahorcado.jpeg" alt="Ahorcado" />
+        <img class="imagenes" src="~/images/ahorcado.jpeg" alt="Ahorcado"/>
 
         <div id="palabraOculta"></div>
 
@@ -167,7 +168,7 @@
             <p class="error">@ViewBag.Error</p>
         }
 
-        <img class="imagenes" src="~/images/codigo.jpeg" alt="Codigo" />
+        <img class="imagenes" src="~/images/codigo.jpeg" alt="Codigo"/>
 
         <form method="post" action="/Juego/Resolver">
 
