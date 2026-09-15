@@ -1,19 +1,17 @@
-@{
-    ViewData["Title"] = "Escape de la Isla Tiburón";
-}
+<h1>ESCAPE DE LA ISLA TIBURON</h1>
 
-<div class="pantalla-inicio">
-    <h1>ESCAPE DE LA ISLA TIBURÓN</h1>
-    <p>Quedaste atrapado en la isla. Resolvé los desafíos y escapá antes de que sea demasiado tarde.</p>
+<img class="imagenes" src="~/images/tiburon.jpeg" alt="Isla Tiburon"/>
 
-    @if (ViewBag.Error != null)
-    {
-        <p class="mensaje-error">@ViewBag.Error</p>
-    }
+<p>
+    Quedaste atrapado en la Isla Tiburon.
+    Resolvé los desafíos de Skye y encontrá la salida.
+</p>
 
-    <form method="post" action="/Juego/Iniciar">
-        <label for="nombreParticipante">Ingresá tu nombre:</label>
-        <input type="text" id="nombreParticipante" name="nombreParticipante" required />
-        <button type="submit">COMENZAR ESCAPE</button>
-    </form>
-</div>
+<form method="post" action="/Juego/Ingresar">
+    <label>Ingresá tu nombre:</label>
+    <input type="text" name="nombre" placeholder="Tu nombre" required/>
+    <button type="submit">COMENZAR</button>
+</form>
+
+<br>
+<a href="/Juego/Tutorial">¿Cómo jugar?</a>

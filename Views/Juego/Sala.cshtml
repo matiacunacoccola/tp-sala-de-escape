@@ -1,27 +1,196 @@
-@model tp_sala_de_escape.Models.Sala
-
-@{
-    ViewData["Title"] = "Sala " + Model.Numero;
-}
-
 <div class="sala">
-    <h2>Sala @Model.Numero: @Model.Titulo</h2>
-    <p class="historia">@Model.Historia</p>
-    <p class="desafio">@Model.Desafio</p>
 
-    @if(ViewBag.Error != null)
+    @if(ViewBag.SalaNumero == 1)
     {
-        <p class="error">@ViewBag.Error</p>
+        <h2>Sala 1: Playa de Desembarco</h2>
+
+        <p>
+            Llegaste en bote a la Isla Tiburon. Una exploradora llamada Skye
+            dejo varios desafios escondidos por toda la isla. Para avanzar
+            tenes que ordenar las palabras que encontraste en la playa.
+        </p>
+
+        <p>
+            Ordena correctamente todas las palabras mezcladas.
+        </p>
+
+        @if(ViewBag.Error != null)
+        {
+            <p class="error">@ViewBag.Error</p>
+        }
+
+        <h3>Ordená las palabras</h3>
+
+        <img class="imagenes" src="~/images/ordenar.jpeg" alt="Ordenar" />
+
+        <form method="post" action="/Juego/ResolverOrdenar">
+
+            <input type="hidden" name="numero" value="1" />
+
+            @foreach(tp_sala_de_escape.Models.Palabra palabra in ViewBag.Palabras)
+            {
+                <p>@palabra.PalabraMezclada</p>
+
+                <input type="text" name="respuesta@(palabra.IdPalabra)" required />
+            }
+
+            <button type="submit">COMPROBAR</button>
+
+        </form>
+
+        <button type="button" class="btn-pista"
+                onclick="document.getElementById('pista').style.display='block'">
+            Pista
+        </button>
+
+        <div id="pista" class="pista" style="display:none;">
+            <p>
+                Pensá en palabras relacionadas con la isla y con tu objetivo.
+            </p>
+        </div>
     }
 
-    <form method="post" action="/Juego/Resolver" class="form-respuesta">
-        <input type="hidden" name="numero" value="@Model.Numero" />
-        <input type="text" name="respuesta" placeholder="Ingresa la respuesta" required />
-        <button type="submit">RESPONDER</button>
-    </form>
 
-    <button type="button" class="btn-pista" onclick="document.getElementById('pista').style.display='block'">Pista</button>
-    <div id="pista" class="pista">
-        <p>@Model.Pista</p>
-    </div>
+    @if(ViewBag.SalaNumero == 2)
+    {
+        <h2>Sala 2: La Prisión</h2>
+
+        <p>
+            Despues de atravesar la playa llegas a una antigua prision
+            abandonada. La puerta de salida esta cerrada y solamente se abre
+            si descubris la palabra escondida en el juego de ahorcado preparado por Skye.
+        </p>
+
+        <p>
+            Tenés 10 intentos para descubrir la palabra.
+        </p>
+
+        <img class="imagenes" src="~/images/ahorcado.jpeg" alt="Ahorcado" />
+
+        <div id="palabraOculta"></div>
+
+        <p>Intentos restantes:</p>
+
+        <div id="intentos">10</div>
+
+        <div id="mensaje"></div>
+
+        <p>Ingrese una letra:</p>
+
+        <input type="text" id="letra" placeholder="Ej: a">
+
+        <div>
+            <input type="hidden" id="palabra" value="@ViewBag.palabra">
+        </div>
+
+        <button onclick="arriesgarLetra()">
+            Arriesgar letra
+        </button>
+
+        <div id="continuar" style="display:none;">
+            <a href="/Juego/ResolverAhorcado">Continuar</a>
+        </div>
+
+        <button type="button" class="btn-pista"
+                onclick="document.getElementById('pista').style.display='block'">
+            Pista
+        </button>
+
+        <div id="pista" class="pista" style="display:none;">
+            <p>
+                Es un lugar del que queres escapar.
+            </p>
+        </div>
+    }
+
+
+    @if(ViewBag.SalaNumero == 3)
+    {
+        <h2>Sala 3: El Laboratorio de Skye</h2>
+
+        <p>
+            Llegas al laboratorio secreto de Skye. En una mesa encontrás
+            una pantalla con una adivinanza. La respuesta abre la puerta que
+            lleva a la siguiente zona.
+        </p>
+
+         <img class="imagenes" src="~/images/adivinanza.jpeg" alt="Adivinanza" />
+
+        @if(ViewBag.Error != null)
+        {
+            <p class="error">@ViewBag.Error</p>
+        }
+
+        <h3>Adivinanza</h3>
+
+        <form method="post" action="/Juego/Resolver">
+
+            <input type="hidden" name="numero" value="3" />
+
+            <input type="text" name="respuesta"
+                   placeholder="Escribí tu respuesta" required />
+
+            <button type="submit">RESPONDER</button>
+
+        </form>
+
+        <button type="button" class="btn-pista"
+                onclick="document.getElementById('pista').style.display='block'">
+            Pista
+        </button>
+
+        <div id="pista" class="pista" style="display:none;">
+            <p>
+                 Te ayuda a encontrar el camino cuando no sabés dónde estás.
+            </p>
+        </div>
+    }
+
+
+    @if(ViewBag.SalaNumero == 4)
+    {
+        <h2>Sala 4: El Vault Final</h2>
+
+        <p>
+            Llegaste al lugar donde Skye guardaba sus secretos.
+            Todavia queda un ultimo desafio para conseguir escapar
+            de Isla Tiburon.
+        </p>
+
+        <p>
+            Para poder escapar de la isla deberas descifrar el codigo
+            de acceso a la bóveda que Skye dejo oculto en este mensaje:
+        </p>
+
+        @if(ViewBag.Error != null)
+        {
+            <p class="error">@ViewBag.Error</p>
+        }
+
+        <img class="imagenes" src="~/images/codigo.jpeg" alt="Codigo" />
+
+        <form method="post" action="/Juego/Resolver">
+
+            <input type="hidden" name="numero" value="4" />
+
+            <p>Ingresá el código:</p>
+
+            <input type="text" name="respuesta" required />
+
+            <button type="submit">COMPROBAR</button>
+
+        </form>
+
+        <button type="button" class="btn-pista"
+                onclick="document.getElementById('pista').style.display='block'">
+            Pista
+        </button>
+
+        <div id="pista" class="pista" style="display:none;">
+            <p>
+                Observá atentamente la imagen para descubrir la palabra.
+            </p>
+        </div>
+    }
+
 </div>

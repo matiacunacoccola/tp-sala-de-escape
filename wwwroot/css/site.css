@@ -29,65 +29,43 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
-body {
-    background-color: #0a2a43;
+body{
+    background-color: #3b2607d3;
     color: white;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 20px;
+    font-family: Arial;
+    text-align:center;
+    margin:0;
+    padding: 2%;
 }
 
-h1 {
-    color: #ffcc00;
-    font-size: 36px;
+h1{
+    color: #e4e2dc;
+    font-size:150%;
 }
 
-h2 {
+h2{
     color: #ffcc00;
 }
 
 .sala{
-    margin: 0;
-    padding: 3%;
-}
-
-.historia{
-    margin-bottom: 3%;
-}
-
-.desafio{
-    font-weight: bold;
-    margin-bottom: 1%;
+    margin:0;
+    padding:3%;
 }
 
 .error{
     color: red;
 }
 
-.form-respuesta {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 3%;
-    margin-left:34%;
+.btn-pista{
+    padding:1%;
 }
 
-
-.form-respuesta button{
-    padding: 1%;
-    margin-left: 1%;
-}
-
-.btn-pista {
-    padding: 1%;
-}
-
-.pista {
+.pista{
     display: none;
-    margin-top: 3%;
+    margin-top:3%;
 }
-.img-sala{
+.imagenes{
   width:60%;
   margin:3%;
-  border-radius: 10%;
+  border-radius:10%;
 }
