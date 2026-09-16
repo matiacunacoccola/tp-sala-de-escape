@@ -183,7 +183,6 @@ namespace tp_sala_de_escape.Controllers
             {
                 return RedirectToAction("Index");
             }
-
             Sala sala = bd.ObtenerSalaPorNumero(2);
 
             bd.GuardarRespuesta(idPartida,sala.IdSala,"CARCEL",true);
