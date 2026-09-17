@@ -40,7 +40,10 @@ body{
 
 h1{
     color: #e4e2dc;
-    font-size:150%;
+    font-size:200%;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h2{
