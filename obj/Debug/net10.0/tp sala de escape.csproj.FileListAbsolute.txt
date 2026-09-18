@@ -129,5 +129,5 @@ C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\tp sala de escape.p
 C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\tp sala de escape.genruntimeconfig.cache
 C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\ref\tp sala de escape.dll
 C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\tp sala de escape.sourcelink.json
-C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\aaejllzxne-{0}-nfew77nk9d-nfew77nk9d.gz
-C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\fzot9zmet1-{0}-pcwsga2x6z-pcwsga2x6z.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\fzot9zmet1-{0}-41wob8652i-41wob8652i.gz
+C:\Users\Admin\Downloads\tp sala de escape\obj\Debug\net10.0\compressed\aaejllzxne-{0}-h2q2os9w37-h2q2os9w37.gz

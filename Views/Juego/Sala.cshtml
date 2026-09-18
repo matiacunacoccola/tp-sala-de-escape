@@ -4,24 +4,21 @@
     @if(ViewBag.SalaNumero == 1)
     {
         <h2>Sala 1: Playa de Desembarco</h2>
-
         <p>
             Llegaste en bote a la Isla Tiburon. Una exploradora llamada Skye
             dejo varios desafios escondidos por toda la isla. Para avanzar
             tenes que ordenar las palabras que encontraste en la playa.
         </p>
-
         <p>
             Ordena correctamente todas las palabras mezcladas.
         </p>
-
+    
         @if(ViewBag.Error != null)
         {
             <p class="error">@ViewBag.Error</p>
         }
 
         <h3>Ordená las palabras</h3>
-
         <img class="imagenes" src="~/images/ordenar.jpeg" alt="Ordenar"/>
 
         <form method="post" action="/Juego/ResolverOrdenar">
@@ -31,16 +28,13 @@
             @foreach(Palabra palabra in ViewBag.Palabras)
             {
                 <p>@palabra.PalabraMezclada</p>
-
                 <input type="text" name="respuesta@(palabra.IdPalabra)" required />
             }
 
             <button type="submit">COMPROBAR</button>
 
         </form>
-
-        <button type="button" class="btn-pista"
-                onclick="document.getElementById('pista').style.display='block'">
+        <button type="button" class="btn-pista" onclick="document.getElementById('pista').style.display='block'">
             Pista
         </button>
 
@@ -62,17 +56,9 @@
             si descubris la palabra escondida en el juego de ahorcado preparado por Skye.
         </p>
 
-        <p>
-            Tenés 10 intentos para descubrir la palabra.
-        </p>
-
         <img class="imagenes" src="~/images/ahorcado.jpeg" alt="Ahorcado"/>
 
         <div id="palabraOculta"></div>
-
-        <p>Intentos restantes:</p>
-
-        <div id="intentos">10</div>
 
         <div id="mensaje"></div>
 
@@ -88,9 +74,6 @@
             Arriesgar letra
         </button>
 
-        <div id="continuar" style="display:none;">
-            <a href="/Juego/ResolverAhorcado">Continuar</a>
-        </div>
 
         <button type="button" class="btn-pista"
                 onclick="document.getElementById('pista').style.display='block'">
@@ -168,8 +151,7 @@
 
         </form>
 
-        <button type="button" class="btn-pista"
-                onclick="document.getElementById('pista').style.display='block'">
+        <button type="button" class="btn-pista" onclick="document.getElementById('pista').style.display='block'">
             Pista
         </button>
 

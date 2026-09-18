@@ -30,7 +30,7 @@ body {
   text-align: start;
 }
 body{
-    background-color: #3b2607d3;
+    background-color: #000000d3;
     color: white;
     font-family: Arial;
     text-align:center;
@@ -47,7 +47,46 @@ h1{
 }
 
 h2{
-    color: #ffcc00;
+    color: #e2d410;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    margin-bottom: 5%;
+  
+    
+}
+
+p{
+
+
+}
+
+.tutorial h2{
+  margin-bottom: 7%;
+ font-size: 230%;
+
+}
+
+.tutorial p{
+
+  margin-bottom: 1%;
+
+  
+}
+
+.btn-tutorial{
+  padding: 1%;
+  background-color: #636262;
+   display: inline-block;
+ 
+}
+.btn-tutorial:hover{
+  box-shadow: 1px 1px 1px gray;
+}
+.btn-tutorial a{
+
+text-decoration: none;
+color:#e2d410;
+font-weight: bold;
 }
 
 .sala{
@@ -72,3 +111,5 @@ h2{
   margin:3%;
   border-radius:10%;
 }
+
+
