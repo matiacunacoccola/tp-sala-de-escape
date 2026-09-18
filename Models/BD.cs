@@ -19,7 +19,6 @@ namespace tp_sala_de_escape.Models
             }
         }
 
-        
 
         public List<Palabra> ObtenerPalabras(int idSala)
         {
