@@ -47,7 +47,7 @@ function arriesgarLetra()
 
   if(quedanGuiones==false)
 {
-     window.location.href = "/Juego/ResolverAhorcado";
+     document.getElementById("formAhorcado").submit();
      return;
   }
 }

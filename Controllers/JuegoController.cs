@@ -119,7 +119,6 @@ namespace tp_sala_de_escape.Controllers
             }
 
             int siguiente= numero + 1;
-
             Sala salaSiguiente= bd.ObtenerSalaPorNumero(siguiente);
 
             if(salaSiguiente == null)
@@ -154,7 +153,6 @@ namespace tp_sala_de_escape.Controllers
                     correcta = false;
                 }
             }
-
             bd.GuardarRespuesta(idPartida,sala.IdSala,"ORDENAR PALABRAS", correcta);
 
             if(!correcta)
@@ -171,7 +169,7 @@ namespace tp_sala_de_escape.Controllers
             return RedirectToAction("Sala",new{numero = 2});
         }
 
-        [HttpGet]
+        [HttpPost]
         public IActionResult ResolverAhorcado()
         {
             string nombre= HttpContext.Session.GetString("NombreParticipante");
@@ -196,7 +194,6 @@ namespace tp_sala_de_escape.Controllers
         public IActionResult Victoria()
         {
             string nombre = HttpContext.Session.GetString("NombreParticipante");
-
             Partida partida = bd.ObtenerPartidaPorNombre(nombre);
 
             ViewBag.FechaInicio= partida.FechaInicio;

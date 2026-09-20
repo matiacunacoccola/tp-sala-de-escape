@@ -48,6 +48,7 @@
 
     @if(ViewBag.SalaNumero == 2)
     {
+        <form id="formAhorcado" method="post" action="/Juego/ResolverAhorcado" style="display:none;"></form>
         <h2>Sala 2: La Prisión</h2>
 
         <p>
@@ -75,8 +76,7 @@
         </button>
 
 
-        <button type="button" class="btn-pista"
-                onclick="document.getElementById('pista').style.display='block'">
+        <button type="button" class="btn-pista" onclick="document.getElementById('pista').style.display='block'">
             Pista
         </button>
 
@@ -111,15 +111,11 @@
 
             <input type="hidden" name="numero" value="3" />
 
-            <input type="text" name="respuesta"
-                   placeholder="Escribí tu respuesta" required />
-
+            <input type="text" name="respuesta" placeholder="Escribí tu respuesta" required/>
             <button type="submit">RESPONDER</button>
-
         </form>
 
-        <button type="button" class="btn-pista"
-                onclick="document.getElementById('pista').style.display='block'">
+        <button type="button" class="btn-pista" onclick="document.getElementById('pista').style.display='block'">
             Pista
         </button>
 
@@ -134,18 +130,16 @@
     @if(ViewBag.SalaNumero == 4)
     {
         <h2>Sala 4: El desafío Final</h2>
-
-       
-
+        <p>Llegaste a la sala final. Deeberas descubrir el código oculto que Skye dejó en la pared para poder ingresar a la bóveda y finalmente escapar de la isla. </p>
         <img class="imagenes" src="~/images/codigo.jpeg" alt="Codigo"/>
 
         <form method="post" action="/Juego/Resolver">
 
-            <input type="hidden" name="numero" value="4" />
+            <input type="hidden" name="numero" value="4"/>
 
             <p>Ingresá el código:</p>
 
-            <input type="text" name="respuesta" required />
+            <input type="text" name="respuesta" required/>
 
             <button type="submit">COMPROBAR</button>
 
