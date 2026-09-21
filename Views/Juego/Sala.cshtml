@@ -28,7 +28,7 @@
             @foreach(Palabra palabra in ViewBag.Palabras)
             {
                 <p>@palabra.PalabraMezclada</p>
-                <input type="text" name="respuesta@(palabra.IdPalabra)" required />
+                <input type="text" name="respuestas" required />
             }
 
             <button type="submit">COMPROBAR</button>

@@ -134,7 +134,7 @@ namespace tp_sala_de_escape.Controllers
         }
 
         [HttpPost]
-        public IActionResult ResolverOrdenar(int numero, string respuesta1, string respuesta2, string respuesta3, string respuesta4, string respuesta5, string respuesta6, string respuesta7, string respuesta8)
+        public IActionResult ResolverOrdenar(int numero,string[] respuestas)
         {
             string nombre = HttpContext.Session.GetString("NombreParticipante");
             string idPartida = HttpContext.Session.GetString("PartidaId");
@@ -142,11 +142,17 @@ namespace tp_sala_de_escape.Controllers
             Sala sala = bd.ObtenerSalaPorNumero(numero);
             List<Palabra> palabras = bd.ObtenerPalabras(sala.IdSala);
 
-            string[] respuestas ={respuesta1, respuesta2, respuesta3, respuesta4, respuesta5, respuesta6, respuesta7, respuesta8};
-
             bool correcta = true;
 
-            for(int i= 0; i<8; i++)
+             if(respuestas == null|| respuestas.Length!= palabras.Count)
+            {
+                ViewBag.Error= "Faltan respuestas por completar.";
+                ViewBag.Palabras = palabras;
+                ViewBag.SalaNumero = numero;
+                return View("Sala");
+           }
+
+            for(int i= 0; i<palabras.Count; i++)
             {
                 if(respuestas[i].ToUpper() != palabras[i].PalabraCorrecta.ToUpper())
                 {
