@@ -112,12 +112,6 @@ namespace tp_sala_de_escape.Controllers
                 return View("Sala");
             }
 
-            if(numero == 4)
-            {
-                bd.FinalizarPartida(idPartida);
-                return RedirectToAction("Victoria");
-            }
-
             int siguiente= numero + 1;
             Sala salaSiguiente= bd.ObtenerSalaPorNumero(siguiente);
 
